@@ -28,7 +28,7 @@ def cvtTimezone(date):
 targetServer = input("Enter a Webpage Address (ex. http://google.com/) : ")
 serverTime = getServerTime(targetServer)
 cvtServerTime = cvtTimezone(serverTime)
-print('Server Time (KST) : {}'.format(cvtServerTime))
+print('Server Time : {}'.format(cvtServerTime))
 
 
 
